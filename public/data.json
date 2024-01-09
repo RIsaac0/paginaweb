@@ -1,0 +1,30 @@
+[
+    {
+        "id": 1,
+        "name": "Kingston SSD A400 240GB SATA 3 (6Gb/s) ",
+        "author": "Kingston",
+        "price": 448,
+        "img": "https://m.media-amazon.com/images/I/71iM01UVAKL.__AC_SY300_SX300_QL70_ML2_.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Kingston Fury Beast Black RGB DDR4",
+        "author": "Kingston",
+        "price": 1839,
+        "img": "https://m.media-amazon.com/images/I/71+clMT-q-L._AC_SX569_.jpg"
+    },
+    {
+        "id": 3,
+        "name": "GeForce RTX 4060 Eagle OC 8G, 8 GB GDDR6 de 128 bits",
+        "author": "GeForce RTX",
+        "price": 6864,
+        "img": "https://m.media-amazon.com/images/I/71g2Lc8urJL._AC_SX679_.jpg"
+    },
+    {
+        "id": 4,
+        "name": "AMD - Procesador RYZEN 9 5900X, 3.7GHz, 12 Núcleos - Socket AM4",
+        "author": "AMD",
+        "price": 4479,
+        "img": "https://m.media-amazon.com/images/I/616VM20+AzL._AC_SX679_.jpg"
+    }
+]

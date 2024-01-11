@@ -1,13 +1,15 @@
-import React, { useContext } from "react";
+import React, { useContext, useEffect, useState } from "react";
 import { DataContext } from "../Context/DataContext";
 import "./Products.css";
+import axios from "axios";
 
 const Products = () => {
-  const { data, cart, setCart } = useContext(DataContext);
+  const [data, setData] = useState([]);
+  const { buyProducts } = useContext(DataContext);
   
-  const buyProducts = (product) => {
-    setCart([...cart, product]);
-  };
+  useEffect(()=> {
+    axios("data.json").then((res) => setData(res.data));
+  }, []);
 
   return data.map((product) => (
     <div className="card" key={product.id}>

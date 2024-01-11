@@ -7,19 +7,18 @@ import { Link } from 'react-router-dom';
  import './Navbar.css';
 
 
-const Navbar = () => {
-  const {cart} = useContext(DataContext);
+ const Navbar = () => {
+  const { cart } = useContext(DataContext);
+
   return (
     <div className='nav-container'>
       <nav className='navbar'>
-
-        <link to= {"/"}></link>
-        <h1 className='navbar-logo'>Shop.</h1>
-       
-        <Link className='seecarrito' to={'/cart'}>
-          🛒
-         { cart.length > 0 ? <TotalItems /> : null} 
-          </Link>
+        <Link to="/">
+          <h1 className='navbar-logo'>Shop.</h1>
+        </Link>
+        <Link className='seecarrito' to='/cart'>
+          🛒 {cart.length > 0 ? <TotalItems /> : null}
+        </Link>
       </nav>
     </div>
   );
